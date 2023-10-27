@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 64px;
+  background-color: rgb(43, 41, 41);
+  width: 100%;
+}
+
+form{
+  margin-top: 64px;
+  display: flex;
+}
+
+label {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: .8em;
+  width: 90%;
+  
+}
+
+aside {
+  background: rgb(39, 39, 39);
+}
+
+
+
+
